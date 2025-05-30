@@ -130,20 +130,15 @@ StructuralDecompositionPattern: 1 time (20%)
 ```
 pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings/
 ├── semantic_framework_fixed.py    # Main application
-├── requirements.txt               # Python dependencies
 ├── README.md                     # This file
-├── LICENSE                       # MIT License
-├── docs/                        # Documentation
+├── .gitignore                    # Git ignore rules
+├── docs/                        # Documentation (planned)
 │   ├── patterns.md              # Pattern documentation
 │   ├── evaluation.md            # Evaluation methodology
 │   └── api.md                   # API reference
-├── examples/                    # Example models and results
+├── examples/                    # Example results (planned)
 │   ├── sample_models/          # Sample UML/Ecore/Java models
 │   └── results/                # Example evaluation results
-├── tests/                      # Test suite
-│   ├── test_core.py           # Core functionality tests
-│   ├── test_patterns.py       # Pattern application tests
-│   └── test_modelset.py       # ModelSet integration tests
 └── modelset/                   # Place your ModelSet here (optional)
     ├── models/
     ├── data/
@@ -248,33 +243,38 @@ class CustomPattern(Pattern):
 - **Ecore → Ecore**: Model evolution and versioning
 - **BPMN → PetriNet**: Process model transformations
 
-## 🧪 Testing
+## 🧪 Framework Validation
 
-### Run Test Suite
+### Built-in Validation
 
-```bash
-# Run all tests
-python -m pytest tests/ -v
+The framework includes comprehensive internal validation:
 
-# Run specific test categories
-python -m pytest tests/test_patterns.py -v
-python -m pytest tests/test_modelset.py -v
+```python
+# Automatic validation during evaluation
+evaluator = EnhancedSemanticEvaluator("modelset")
+results = evaluator.load_models(max_models=5)
 
-# Run with coverage
-python -m pytest tests/ --cov=semantic_framework_fixed --cov-report=html
+# Built-in checks:
+# - ModelSet structure validation
+# - File format verification
+# - Pattern application success rates
+# - BA score calculation accuracy
 ```
 
-### Validation Tests
+### Manual Validation
 
 ```bash
-# Validate with sample models
-python validate_framework.py
+# Validate framework installation
+python -c "
+from semantic_framework_fixed import EnhancedSemanticEvaluator
+print('✅ Framework successfully imported')
+evaluator = EnhancedSemanticEvaluator('.')
+print('✅ Evaluator initialized')
+"
 
-# Test ModelSet integration
-python test_modelset_integration.py
-
-# Performance benchmarking
-python benchmark_performance.py
+# Test with sample data
+streamlit run semantic_framework_fixed.py
+# Use built-in synthetic models for validation
 ```
 
 ## 📊 Benchmarks
@@ -403,15 +403,16 @@ pip install -r requirements-dev.txt
 - **PEP 8** compliance for Python code
 - **Type hints** for all public functions
 - **Comprehensive docstrings** for modules and classes
-- **Unit tests** for new functionality
+- **Built-in validation** through framework execution
 
 ### Pull Request Process
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
+3. Test changes using the interactive framework
+4. Commit changes (`git commit -m 'Add amazing feature'`)
+5. Push to branch (`git push origin feature/amazing-feature`)
+6. Open Pull Request
 
 ## 📄 License
 
@@ -474,7 +475,7 @@ transformers>=4.21.0
 scikit-learn>=1.1.0
 ```
 
-### Development Requirements
+### Development Requirements (Future)
 
 ```
 pytest>=7.0.0
@@ -483,6 +484,8 @@ black>=22.0.0
 flake8>=5.0.0
 mypy>=0.991
 ```
+
+_Note: Test suite is planned for future releases. Current validation is done through the interactive framework._
 
 ## 🌟 Acknowledgments
 
