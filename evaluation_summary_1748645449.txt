@@ -1,0 +1,30 @@
+Large-Scale Semantic Preservation Evaluation Report
+Generated: 2025-05-30 22:50:49
+Framework Version: 1.0.3-LARGE-SCALE
+
+EVALUATION SUMMARY:
+- Total Evaluations: 149
+- Successful Evaluations: 141
+- Success Rate: 94.6%
+- Average Improvement: 2.8% if successful_results else "N/A"
+- Total Gaps Detected: 301
+
+TRANSFORMATION TYPES:
+- UML_to_Ecore: 37 evaluations (100.0% success)
+- Ecore_to_Java: 50 evaluations (100.0% success)
+- UML_to_Java: 25 evaluations (96.0% success)
+- Ecore_to_EcoreV2: 30 evaluations (100.0% success)
+- BPMN_to_PetriNet: 7 evaluations (0.0% success)
+
+PATTERN USAGE:
+- MetadataPreservationPattern: 137 applications
+- BehavioralEncodingPattern: 54 applications
+- HybridPattern: 1 applications
+
+STATISTICAL SIGNIFICANCE:
+- Sample Size: Large (n≥100)
+- Effect Size: Large
+- Confidence Level: High
+
+CONCLUSION:
+Results provide evidence of framework utility with room for larger-scale validation.
