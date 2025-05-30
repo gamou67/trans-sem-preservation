@@ -1,0 +1,76 @@
+# Framework de Préservation Sémantique - Dépendances
+# Version: 1.0.0
+# Compatible: Python 3.9+
+
+# Interface utilisateur
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Manipulation de données
+pandas>=1.5.0
+numpy>=1.24.0
+
+# Visualisations
+plotly>=5.15.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning & NLP
+transformers>=4.21.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+sentence-transformers>=2.2.0
+
+# Analyses de graphes
+networkx>=3.1.0
+
+# Utilitaires
+requests>=2.31.0
+pathlib2>=2.3.7
+tqdm>=4.65.0
+jsonschema>=4.17.0
+
+# Analyse de code
+ast-grep>=0.2.0
+
+# Export et rapports
+fpdf2>=2.7.0
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Tests et qualité
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Développement
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+
+# Performance
+numba>=0.57.0
+cython>=3.0.0
+
+# Optionnel : Base de données
+sqlalchemy>=2.0.0
+sqlite3  # Inclus avec Python standard
+
+# Optionnel : Intégration Git
+GitPython>=3.1.0
+
+# Optionnel : Parallélisation
+multiprocessing-logging>=0.3.4
+concurrent-futures>=3.1.1
+
+# Optionnel : Métriques avancées
+scipy>=1.11.0
+statsmodels>=0.14.0
+
+# Documentation
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+
+# Format et style
+autopep8>=2.0.0
+isort>=5.12.0
