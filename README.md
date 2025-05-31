@@ -188,10 +188,10 @@ The `real_data_graphs.py` script generates publication-ready figures:
 If you use this work in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{elbachir2025semantic,
+@inproceedings{XXX,
   title={Enhancing Semantic Preservation in Model Transformations through Pattern-Based Generation: A Large-Scale Empirical Study},
   author={Anonymous Authors},
-  booktitle={Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  booktitle={Proceedings of the ... YYY},
   year={2025},
   organization={IEEE}
 }
@@ -212,11 +212,8 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install development dependencies
-pip install -r requirements-dev.txt
+pip install -r requirements.txt
 
-# Run tests
-python -m pytest tests/
-```
 
 ## 📄 License
 
@@ -224,24 +221,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 Links
 
-- **Paper**: [ASE 2025 Submission](https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings)
+- **Paper**: [ZZZ Submission](https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings)
 - **Dataset**: [ModelSet on Figshare](https://figshare.com/s/5a6c02fa8ed20782935c?file=24495371)
-- **Documentation**: [GitHub Pages](https://elbachir67.github.io/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings/)
 
 ## 🆘 Support
 
-For questions and support:
-
-- **Issues**: [GitHub Issues](https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings/discussions)
-- **Email**: [Contact the authors](mailto:authors@university.edu)
 
 ## 🏆 Acknowledgments
 
 - ModelSet consortium for providing the comprehensive model repository
 - HuggingFace for the Transformers library and pre-trained models
-- The Model-Driven Engineering community for valuable feedback
 
 ---
 
 **Keywords**: Model Transformations, Semantic Preservation, Neural Embeddings, Pattern-Based Generation, Cross-Metamodel Transformations, DistilBERT, Empirical Validation
+```
