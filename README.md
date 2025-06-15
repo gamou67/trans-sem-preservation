@@ -27,8 +27,8 @@ pip install -r requirements.txt
 ### Installation
 
 ```bash
-git clone https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings.git
-cd pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings
+git clone https://github.com/gamou67/trans-sem-preservation.git
+cd trans-sem-preservation
 pip install -r requirements.txt
 ```
 
@@ -189,50 +189,10 @@ If you use this work in your research, please cite our paper:
 
 ```bibtex
 @inproceedings{XXX,
-  title={Enhancing Semantic Preservation in Model Transformations through Pattern-Based Generation: A Large-Scale Empirical Study},
+  title={Challenging Semantic Loss Inevitability: A Transformer Revolution in Cross-Metamodel Transformations},
   author={Anonymous Authors},
   booktitle={Proceedings of the ... YYY},
   year={2025},
   organization={IEEE}
 }
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings.git
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install development dependencies
-pip install -r requirements.txt
-
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Links
-
-- **Paper**: [ZZZ Submission](https://github.com/elbachir67/pattern-Based-Enhancement-for-Model-Transformations-using-Neural-Embeddings)
-- **Dataset**: [ModelSet on Figshare](https://figshare.com/s/5a6c02fa8ed20782935c?file=24495371)
-
-## 🆘 Support
-
-
-## 🏆 Acknowledgments
-
-- ModelSet consortium for providing the comprehensive model repository
-- HuggingFace for the Transformers library and pre-trained models
-
----
-
-**Keywords**: Model Transformations, Semantic Preservation, Neural Embeddings, Pattern-Based Generation, Cross-Metamodel Transformations, DistilBERT, Empirical Validation
 ```
