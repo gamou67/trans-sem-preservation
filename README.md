@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Run the main semantic preservation framework:
 
 ```bash
-python semantic_framework_final.py
+streamlit run semantic_framework_final.py
 ```
 
 Generate analysis graphs from results:
